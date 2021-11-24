@@ -1,0 +1,44 @@
+body{
+  background: #bbdefb;
+}
+.flex {
+  display: flex;
+}
+
+.home {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.icons {
+  width: 97px;
+  position: relative;
+  top: -26%;
+  left: 34%;
+  opacity: 0.4;
+}
+
+.cards {
+  flex-wrap: wrap;
+  margin-top: 6%;
+  justify-content: center;
+  gap: 15px;
+}
+
+.scard {
+  max-height: 235px;
+  flex-direction: column;
+}
+
+.crypto-top{
+
+  text-align-last: center;
+  text-align: center;
+  padding-top: 8%;
+}
+
+.list-unstyled{
+  list-style-type: none;
+  text-align: center;
+}
