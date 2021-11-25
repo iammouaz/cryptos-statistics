@@ -33,7 +33,7 @@ const Header = (data) => {
             {location === '/' ? (
               <HomeIcon className="icon" color="primary" />
             ) : (
-              <HomeIcon style={{ width: '60px', height: '50px' }} color="primary" />
+              <HomeIcon fontSize="large" color="primary" />
             )}
           </NavLink>
           <Typography variant="h2" gutterBottom component="div">
