@@ -1,11 +1,10 @@
 import React from 'react';
-import Row from 'react-bootstrap/Row';
 import Crypto from './Cryptos';
 
 const CryptoList = (data) => {
   const { list } = data;
   return (
-    <Row
+    <div
       style={{
         display: 'flex', flexWrap: 'wrap', gap: '86px', paddingTop: '118px', marginLeft: '4%',
       }}
@@ -23,7 +22,7 @@ const CryptoList = (data) => {
           img={e.image.large}
         />
       ))}
-    </Row>
+    </div>
   );
 };
 

@@ -3,7 +3,7 @@ const API_URL = 'https://api.coingecko.com/api/v3/coins/';
 
 const initialState = [];
 
-export const ids = ['bitcoin', 'ethereum', 'binancecoin', 'chia', 'dogecoin', 'cardano', 'klay-token', 'wemix-token'];
+export const ids = ['bitcoin', 'litecoin', 'chainlink', 'algorand', 'tether', 'solana', 'ethereum', 'binancecoin', 'ripple', 'polkadot', 'shiba-inu', 'dogecoin', 'cardano', 'klay-token', 'wemix-token', 'bitcoin-cash-abc-2', 'amp-token', 'maker', 'bitcoin-cash-sv', 'pancakeswap-token'];
 
 const getCryptoById = async (id = 'bitcoin') => {
   const response = await fetch(`${API_URL}${id}`);

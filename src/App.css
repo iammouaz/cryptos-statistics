@@ -1,8 +1,10 @@
-body{
+body {
   background: #bbdefb;
 }
+
 .flex {
-  display: flex;
+  display: flex !important;
+  align-items: center !important;
 }
 
 .home {
@@ -11,12 +13,28 @@ body{
   gap: 10px;
 }
 
+.crypto-top {
+  text-align-last: center;
+  text-align: center;
+  padding-top: 8%;
+}
+
+.list-unstyled {
+  list-style-type: none;
+  text-align: center;
+}
+
 .icons {
   width: 97px;
   position: relative;
-  top: -26%;
-  left: 34%;
-  opacity: 0.4;
+  top: -19%;
+  left: 0;
+  opacity: 0.6;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  width: 60px !important;
+  height: 50px !important;
 }
 
 .cards {
@@ -31,14 +49,6 @@ body{
   flex-direction: column;
 }
 
-.crypto-top{
-
-  text-align-last: center;
-  text-align: center;
-  padding-top: 8%;
-}
-
-.list-unstyled{
-  list-style-type: none;
-  text-align: center;
+.row {
+  flex-direction: row !important;
 }

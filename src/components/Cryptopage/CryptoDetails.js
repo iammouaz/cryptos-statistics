@@ -1,28 +1,31 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
 
 const CryptoDetails = ({ data }) => (
   <div>
     <div className="crypto-top">
       <img src={data.image.large} alt={data.id} />
-      <p className="fs-1">
+      <Typography variant="h2" gutterBottom component="div">
         {data.name}
         {` (${data.symbol})`}
         <br />
         Price: $
         {data.market_data.current_price.usd}
-      </p>
+      </Typography>
     </div>
-    <ul className="list-unstyled crypto-bottom fs-2">
-      <li>
+    <Box className="list-unstyled crypto-bottom fs-2">
+      <Typography variant="h3" gutterBottom component="div">
+
         Rank:&nbsp;
         {data.market_data.market_cap_rank}
-      </li>
-      <li>
+      </Typography>
+      <Typography variant="h4" gutterBottom component="div">
         Price change in 24h:&nbsp;$
         {(Math.round(data.market_data.price_change_24h * 100) / 100).toFixed(2)}
-      </li>
-    </ul>
+      </Typography>
+    </Box>
   </div>
 );
 
