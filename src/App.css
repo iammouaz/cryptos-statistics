@@ -1,0 +1,54 @@
+body {
+  background: #bbdefb;
+}
+
+.flex {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.home {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.crypto-top {
+  text-align-last: center;
+  text-align: center;
+  padding-top: 8%;
+}
+
+.list-unstyled {
+  list-style-type: none;
+  text-align: center;
+}
+
+.icons {
+  width: 97px;
+  position: relative;
+  top: -19%;
+  left: 0;
+  opacity: 0.6;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  width: 60px !important;
+  height: 50px !important;
+}
+
+.cards {
+  flex-wrap: wrap;
+  margin-top: 6%;
+  justify-content: center;
+  gap: 15px;
+}
+
+.scard {
+  max-height: 235px;
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row !important;
+}
