@@ -147,3 +147,40 @@ exports[`Components Matches Mission Components Matches 1`] = `
   </form>
 </header>
 `;
+
+exports[`Test CryptoDetails component Compare Crypto component with snapshot 1`] = `
+<div>
+  <div
+    className="crypto-top"
+  >
+    <img
+      alt="42"
+      src="lorem"
+    />
+    <div
+      className="MuiTypography-root MuiTypography-h2 MuiTypography-gutterBottom css-i1hrn3-MuiTypography-root"
+    >
+      Lorem Ipsum
+       (li)
+      <br />
+      Price: $
+      10
+    </div>
+  </div>
+  <div
+    className="list-unstyled crypto-bottom fs-2 MuiBox-root css-0"
+  >
+    <div
+      className="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-1mktp8m-MuiTypography-root"
+    >
+      Rank: 
+    </div>
+    <div
+      className="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom css-1vw6mcs-MuiTypography-root"
+    >
+      Price change in 24h: $
+      NaN
+    </div>
+  </div>
+</div>
+`;

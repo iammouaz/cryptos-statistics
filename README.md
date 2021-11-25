@@ -68,6 +68,11 @@ Give a ⭐️ if you like this project!
 
 To everyone in Microverse.
 
+## Credits
+
+- [CoinGecko](https://www.coingecko.com/en/api/documentation) API
+- [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for the [design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) inspiration
+
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.

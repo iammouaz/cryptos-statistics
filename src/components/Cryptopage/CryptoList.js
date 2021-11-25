@@ -6,7 +6,7 @@ const CryptoList = (data) => {
   return (
     <div
       style={{
-        display: 'flex', flexWrap: 'wrap', gap: '86px', paddingTop: '118px', marginLeft: '4%',
+        display: 'flex', flexWrap: 'wrap', paddingTop: '118px', marginLeft: '4%',
       }}
       xs={2}
       lg={4}
