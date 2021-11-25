@@ -7,6 +7,12 @@
 # Live Demo
 you can check out website [here](https://elastic-mestorf-f7a890.netlify.app/)
 
+
+## Preview
+
+![image](preview.png)
+
+
 ## Built With
 
 - React
