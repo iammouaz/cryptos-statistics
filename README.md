@@ -5,7 +5,7 @@
 > Web application to show data and prices for top Crypto Currencies.
 
 # Live Demo
-you can check out website [here](https://elastic-mestorf-f7a890.netlify.app/)
+you can check out website [here](https://61bf44f23b43f2ee63187cf5--elastic-mestorf-f7a890.netlify.app/)
 
 
 ## Preview
